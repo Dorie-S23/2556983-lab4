@@ -22,11 +22,17 @@
 .border-grid {
     display: grid; /* or display: flex */
     /* Additional layout properties */
+    grid-template-columns: repeat(3, 1fr); 
+    background-color: #ccc; 
+    gap: 1px;
+    padding: 0; 
 }
 
 .error {
     color: red;
     /* Additional styling */
+  padding: 10px 15px; /* Space inside the box */
+  font-weight: bold; /* Make text stand out */
 }
 
 .hidden {
